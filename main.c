@@ -14,7 +14,7 @@ int main() {
 
     for(index1 = 0; index1 < total - 1; index1++) {
         for(index2 = index1 + 1; index2 < total; index2++) {
-            if(strcmp(words[index1], words[index2]) > 0) { //First Run: strcmp(words[0], words[1])
+            if(strcmp(words[index1], words[index2]) > 0) { // First Run: strcmp(words[0], words[1])
                 strcpy(temp, words[index1]);    // Copy words[index1] to a temporary location 
                 strcpy(words[index1], words[index2]);   // Overwrite words[index1] with words[index2]
                 strcpy(words[index2], temp);    // Copy words[index1] to a temporary location 
