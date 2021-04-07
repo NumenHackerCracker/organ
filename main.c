@@ -3,7 +3,7 @@
 
 int main(int argc, char *argv[])
 {
-    char buf[1024][100];  // [1 mib][1 kib]
+    char buf[1024][100];
     int wc = -1;
     do {
         ++wc;
